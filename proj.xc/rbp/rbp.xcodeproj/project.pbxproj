@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE29EA61FFD541000494600 /* GuillotineBinPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29E9A1FFD540F00494600 /* GuillotineBinPack.h */; };
+		9DE29EA71FFD541000494600 /* MaxRectsBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29E9B1FFD540F00494600 /* MaxRectsBinPack.cpp */; };
+		9DE29EA81FFD541000494600 /* ShelfNextFitBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29E9C1FFD540F00494600 /* ShelfNextFitBinPack.cpp */; };
+		9DE29EA91FFD541000494600 /* ShelfNextFitBinPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29E9D1FFD540F00494600 /* ShelfNextFitBinPack.h */; };
+		9DE29EAA1FFD541000494600 /* SkylineBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29E9E1FFD540F00494600 /* SkylineBinPack.cpp */; };
+		9DE29EAB1FFD541000494600 /* SkylineBinPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29E9F1FFD540F00494600 /* SkylineBinPack.h */; };
+		9DE29EAC1FFD541000494600 /* GuillotineBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29EA01FFD541000494600 /* GuillotineBinPack.cpp */; };
+		9DE29EAD1FFD541000494600 /* ShelfBinPack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29EA11FFD541000494600 /* ShelfBinPack.cpp */; };
+		9DE29EAE1FFD541000494600 /* ShelfBinPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29EA21FFD541000494600 /* ShelfBinPack.h */; };
+		9DE29EAF1FFD541000494600 /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29EA31FFD541000494600 /* Rect.cpp */; };
+		9DE29EB01FFD541000494600 /* MaxRectsBinPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29EA41FFD541000494600 /* MaxRectsBinPack.h */; };
+		9DE29EB11FFD541000494600 /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE29EA51FFD541000494600 /* Rect.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DBCEC201F4CCF7C008D1BE0 /* librbp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librbp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE29E9A1FFD540F00494600 /* GuillotineBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillotineBinPack.h; path = ../../lib/rbp/GuillotineBinPack.h; sourceTree = "<group>"; };
+		9DE29E9B1FFD540F00494600 /* MaxRectsBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MaxRectsBinPack.cpp; path = ../../lib/rbp/MaxRectsBinPack.cpp; sourceTree = "<group>"; };
+		9DE29E9C1FFD540F00494600 /* ShelfNextFitBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShelfNextFitBinPack.cpp; path = ../../lib/rbp/ShelfNextFitBinPack.cpp; sourceTree = "<group>"; };
+		9DE29E9D1FFD540F00494600 /* ShelfNextFitBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShelfNextFitBinPack.h; path = ../../lib/rbp/ShelfNextFitBinPack.h; sourceTree = "<group>"; };
+		9DE29E9E1FFD540F00494600 /* SkylineBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SkylineBinPack.cpp; path = ../../lib/rbp/SkylineBinPack.cpp; sourceTree = "<group>"; };
+		9DE29E9F1FFD540F00494600 /* SkylineBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SkylineBinPack.h; path = ../../lib/rbp/SkylineBinPack.h; sourceTree = "<group>"; };
+		9DE29EA01FFD541000494600 /* GuillotineBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GuillotineBinPack.cpp; path = ../../lib/rbp/GuillotineBinPack.cpp; sourceTree = "<group>"; };
+		9DE29EA11FFD541000494600 /* ShelfBinPack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShelfBinPack.cpp; path = ../../lib/rbp/ShelfBinPack.cpp; sourceTree = "<group>"; };
+		9DE29EA21FFD541000494600 /* ShelfBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShelfBinPack.h; path = ../../lib/rbp/ShelfBinPack.h; sourceTree = "<group>"; };
+		9DE29EA31FFD541000494600 /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rect.cpp; path = ../../lib/rbp/Rect.cpp; sourceTree = "<group>"; };
+		9DE29EA41FFD541000494600 /* MaxRectsBinPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaxRectsBinPack.h; path = ../../lib/rbp/MaxRectsBinPack.h; sourceTree = "<group>"; };
+		9DE29EA51FFD541000494600 /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rect.h; path = ../../lib/rbp/Rect.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DBCEC1D1F4CCF7C008D1BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DBCEC171F4CCF7C008D1BE0 = {
+			isa = PBXGroup;
+			children = (
+				9DBCEC341F4CD021008D1BE0 /* rbp */,
+				9DBCEC211F4CCF7C008D1BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DBCEC211F4CCF7C008D1BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCEC201F4CCF7C008D1BE0 /* librbp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBCEC341F4CD021008D1BE0 /* rbp */ = {
+			isa = PBXGroup;
+			children = (
+				9DE29EA01FFD541000494600 /* GuillotineBinPack.cpp */,
+				9DE29E9A1FFD540F00494600 /* GuillotineBinPack.h */,
+				9DE29E9B1FFD540F00494600 /* MaxRectsBinPack.cpp */,
+				9DE29EA41FFD541000494600 /* MaxRectsBinPack.h */,
+				9DE29EA31FFD541000494600 /* Rect.cpp */,
+				9DE29EA51FFD541000494600 /* Rect.h */,
+				9DE29EA11FFD541000494600 /* ShelfBinPack.cpp */,
+				9DE29EA21FFD541000494600 /* ShelfBinPack.h */,
+				9DE29E9C1FFD540F00494600 /* ShelfNextFitBinPack.cpp */,
+				9DE29E9D1FFD540F00494600 /* ShelfNextFitBinPack.h */,
+				9DE29E9E1FFD540F00494600 /* SkylineBinPack.cpp */,
+				9DE29E9F1FFD540F00494600 /* SkylineBinPack.h */,
+			);
+			name = rbp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DBCEC1E1F4CCF7C008D1BE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE29EB01FFD541000494600 /* MaxRectsBinPack.h in Headers */,
+				9DE29EA61FFD541000494600 /* GuillotineBinPack.h in Headers */,
+				9DE29EB11FFD541000494600 /* Rect.h in Headers */,
+				9DE29EA91FFD541000494600 /* ShelfNextFitBinPack.h in Headers */,
+				9DE29EAE1FFD541000494600 /* ShelfBinPack.h in Headers */,
+				9DE29EAB1FFD541000494600 /* SkylineBinPack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9DBCEC1F1F4CCF7C008D1BE0 /* rbp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBCEC2B1F4CCF7C008D1BE0 /* Build configuration list for PBXNativeTarget "rbp" */;
+			buildPhases = (
+				9DBCEC1C1F4CCF7C008D1BE0 /* Sources */,
+				9DBCEC1D1F4CCF7C008D1BE0 /* Frameworks */,
+				9DBCEC1E1F4CCF7C008D1BE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rbp;
+			productName = rbp;
+			productReference = 9DBCEC201F4CCF7C008D1BE0 /* librbp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBCEC181F4CCF7C008D1BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					9DBCEC1F1F4CCF7C008D1BE0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DBCEC1B1F4CCF7C008D1BE0 /* Build configuration list for PBXProject "rbp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DBCEC171F4CCF7C008D1BE0;
+			productRefGroup = 9DBCEC211F4CCF7C008D1BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DBCEC1F1F4CCF7C008D1BE0 /* rbp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DBCEC1C1F4CCF7C008D1BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE29EA81FFD541000494600 /* ShelfNextFitBinPack.cpp in Sources */,
+				9DE29EAD1FFD541000494600 /* ShelfBinPack.cpp in Sources */,
+				9DE29EA71FFD541000494600 /* MaxRectsBinPack.cpp in Sources */,
+				9DE29EAF1FFD541000494600 /* Rect.cpp in Sources */,
+				9DE29EAC1FFD541000494600 /* GuillotineBinPack.cpp in Sources */,
+				9DE29EAA1FFD541000494600 /* SkylineBinPack.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DBCEC291F4CCF7C008D1BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DBCEC2A1F4CCF7C008D1BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DBCEC2C1F4CCF7C008D1BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DBCEC2D1F4CCF7C008D1BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DBCEC1B1F4CCF7C008D1BE0 /* Build configuration list for PBXProject "rbp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBCEC291F4CCF7C008D1BE0 /* Debug */,
+				9DBCEC2A1F4CCF7C008D1BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBCEC2B1F4CCF7C008D1BE0 /* Build configuration list for PBXNativeTarget "rbp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBCEC2C1F4CCF7C008D1BE0 /* Debug */,
+				9DBCEC2D1F4CCF7C008D1BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DBCEC181F4CCF7C008D1BE0 /* Project object */;
+}

@@ -1,0 +1,19 @@
+Atlas Mapper Tool
+
+The tool for building image atlases.
+
+Atlas is the big image which contains smaller images called sprites. Atlases are often used in 3d apps to optimize performance of pipeline. There are several issues related to building atlases and the tool provides some workarounds.
+
+The main issue is to build as compact as possible atlases. It's known as a NP-problem and I use the well known library RectangleBinPack https://github.com/juj/RectangleBinPack.git from Jukka Jylänki as a solution.
+
+The second issue is known as texture bleeding. To avoid this kind of issues the tool lets you to set extra padding between sprites. The extra space of a sprite will be filled with mirrored pixels of the sprite image.
+
+The tool also supports building atlases the size power of two which is suitable for such compressed format as PVRTC.
+
+The main feature of the tool is the ability just to map coordinates of sprites. It helps to optimize size of the atlas on disk. In such case an atlas file contains only information about sprites and their coordinates in the atlas. The whole atlas is drawn on application side taking small amount of CPU overhead as all heavy calculations is done by the tool. The feature allows you to preserve atlas's content in mixed formats. Imagine the situation when we have an atlas with one RGBA sprite and N grayscaled sprites. In this case you can use a compressor which better compresses the RGBA image and another one which better deals with N grayscale images.
+
+The tool is well suitable for integration with your resource building toolchain as it building process is splitted to two stages: mapping atlases and building(drawing) atlases. Such splitting allows you to distribute atlas building process in order to utilize all available computing power. 
+
+
+TODO: add examples of using the command line tool
+TODO: add exmaples of using the libatlas2d library by integrating with the cocos2dx engine

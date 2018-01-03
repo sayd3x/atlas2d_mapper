@@ -1,0 +1,4 @@
+#include "workspace.xcconfig"
+
+HEADER_SEARCH_PATHS = $(inherited) $(LIBPNG_INCLUDES) $(ZLIB_INCLUDES)
+

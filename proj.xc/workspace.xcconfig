@@ -1,0 +1,21 @@
+// Define project hierarchy
+LIB_ROOT = ${WORKSPACE_ROOT}/../lib
+BOOST_ROOT = ${LIB_ROOT}/boost
+JSON_ROOT = ${LIB_ROOT}/rapidjson
+RBP_ROOT = ${LIB_ROOT}/rbp
+LIBPNG_ROOT = ${LIB_ROOT}/libpng
+ELPP_ROOT = ${LIB_ROOT}/elpp
+ZLIB_ROOT = ${LIB_ROOT}/zlib
+LIBATLAS2D_ROOT = ${LIB_ROOT}/libatlas2d
+
+// Define libs include path
+LIB_INCLUDES = "$(LIB_ROOT)"
+BOOST_INCLUDES = "$(BOOST_ROOT)"
+JSON_INCLUDES = "$(JSON_ROOT)/include"
+LIBPNG_INCLUDES = "$(LIBPNG_ROOT)"
+ELPP_INCLUDES = "$(ELPP_ROOT)/src"
+ZLIB_INCLUDES = "$(ZLIB_ROOT)"
+LIBATLAS2D_INCLUDES = "$(LIBATLAS2D_ROOT)"
+
+// Define libs linking path
+BOOST_LIBS = $(BOOST_ROOT)/stage/lib

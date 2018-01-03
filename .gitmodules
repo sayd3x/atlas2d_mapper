@@ -1,0 +1,19 @@
+[submodule "lib/elpp"]
+	path = lib/elpp
+	url = https://github.com/muflihun/easyloggingpp.git
+[submodule "lib/rbp"]
+	path = lib/rbp
+	url = https://github.com/juj/RectangleBinPack.git
+[submodule "lib/libpng"]
+	path = lib/libpng
+	url = https://git.code.sf.net/p/libpng/code
+	branch = libpng16
+[submodule "lib/rapidjson"]
+	path = lib/rapidjson
+	url = https://github.com/Tencent/rapidjson.git
+[submodule "lib/zlib"]
+	path = lib/zlib
+	url = https://github.com/madler/zlib.git
+[submodule "lib/libatlas2d"]
+	path = lib/libatlas2d
+	url = https://github.com/xedyass/atlas2d.git

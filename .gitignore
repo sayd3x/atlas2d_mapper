@@ -1,0 +1,7 @@
+syntax: glob
+
+**/.DS_Store
+**/*.xcuserdatad
+proj.bjam/install
+proj.bjam/bin
+lib/boost

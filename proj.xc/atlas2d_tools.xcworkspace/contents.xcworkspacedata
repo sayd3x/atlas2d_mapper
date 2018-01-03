@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../lib/libatlas2d/proj.xc/atlas2d.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libpng/libpng.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:zlib/zlib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:json_atlas/json_atlas.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:elpp/elpp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:rbp/rbp.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "extra_libs">
+      <FileRef
+         location = "group:../../../libs/boost_1_60_0/stage/lib/libboost_filesystem.a">
+      </FileRef>
+      <FileRef
+         location = "group:../../../libs/boost_1_60_0/stage/lib/libboost_program_options.a">
+      </FileRef>
+      <FileRef
+         location = "group:../../../libs/boost_1_60_0/stage/lib/libboost_system.a">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Configuration">
+      <FileRef
+         location = "group:libpng.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:json_atlas.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:workspace.xcconfig">
+      </FileRef>
+   </Group>
+</Workspace>

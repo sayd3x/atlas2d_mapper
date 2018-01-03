@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D157D792083790700613AF6 /* json_atlas_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D632083790600613AF6 /* json_atlas_parser.cpp */; };
+		9D157D7A2083790700613AF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D652083790600613AF6 /* main.cpp */; };
+		9D157D7B2083790700613AF6 /* chain_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D662083790600613AF6 /* chain_node.cpp */; };
+		9D157D7C2083790700613AF6 /* image_writer_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D692083790600613AF6 /* image_writer_node.cpp */; };
+		9D157D7D2083790700613AF6 /* image_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D6A2083790600613AF6 /* image_io.cpp */; };
+		9D157D7E2083790700613AF6 /* rbp_wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D6C2083790600613AF6 /* rbp_wrappers.cpp */; };
+		9D157D802083790700613AF6 /* json_atlas_dict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D6E2083790600613AF6 /* json_atlas_dict.cpp */; };
+		9D157D812083790700613AF6 /* json_writer_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D702083790600613AF6 /* json_writer_node.cpp */; };
+		9D157D822083790700613AF6 /* atlas_mapper_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D742083790700613AF6 /* atlas_mapper_node.cpp */; };
+		9D157D832083790700613AF6 /* atlas_naming_node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D157D772083790700613AF6 /* atlas_naming_node.cpp */; };
+		9DE29F371FFD7A0900494600 /* libatlas2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDF5EAA1F7E80230008CC5A /* libatlas2d.a */; };
+		9DE29F381FFD7A1400494600 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE29F391FFD7A1400494600 /* libpng.a */; };
+		9DE29F3A1FFD7A1C00494600 /* zlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE29F3B1FFD7A1C00494600 /* zlib.a */; };
+		9DE29F3C1FFD7A2300494600 /* libelpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC67351F8BDA1500230527 /* libelpp.a */; };
+		9DE29F3D1FFD7A2B00494600 /* librbp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE29F3E1FFD7A2B00494600 /* librbp.a */; };
+		9DE29F3F1FFD7A3E00494600 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2C79CE1F5DDCBC00EC1324 /* libboost_filesystem.a */; };
+		9DE29F401FFD7A3E00494600 /* libboost_program_options.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2C79D01F5DDCBF00EC1324 /* libboost_program_options.a */; };
+		9DE29F411FFD7A3E00494600 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2C79D21F5DDCC000EC1324 /* libboost_system.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DBCEC091F4CC149008D1BE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D157D5D2083790500613AF6 /* json_writer_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = json_writer_node.hpp; path = ../../src/json_writer_node.hpp; sourceTree = "<group>"; };
+		9D157D5E2083790500613AF6 /* atlas_builder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = atlas_builder.hpp; path = ../../src/atlas_builder.hpp; sourceTree = "<group>"; };
+		9D157D602083790600613AF6 /* forwards.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = forwards.hpp; path = ../../src/forwards.hpp; sourceTree = "<group>"; };
+		9D157D612083790600613AF6 /* atlas_naming_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = atlas_naming_node.hpp; path = ../../src/atlas_naming_node.hpp; sourceTree = "<group>"; };
+		9D157D622083790600613AF6 /* rbp_wrappers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rbp_wrappers.hpp; path = ../../src/rbp_wrappers.hpp; sourceTree = "<group>"; };
+		9D157D632083790600613AF6 /* json_atlas_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_atlas_parser.cpp; path = ../../src/json_atlas_parser.cpp; sourceTree = "<group>"; };
+		9D157D642083790600613AF6 /* json_atlas_dict.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = json_atlas_dict.hpp; path = ../../src/json_atlas_dict.hpp; sourceTree = "<group>"; };
+		9D157D652083790600613AF6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../src/main.cpp; sourceTree = "<group>"; };
+		9D157D662083790600613AF6 /* chain_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chain_node.cpp; path = ../../src/chain_node.cpp; sourceTree = "<group>"; };
+		9D157D672083790600613AF6 /* helpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = helpers.hpp; path = ../../src/helpers.hpp; sourceTree = "<group>"; };
+		9D157D682083790600613AF6 /* image_io.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = image_io.hpp; path = ../../src/image_io.hpp; sourceTree = "<group>"; };
+		9D157D692083790600613AF6 /* image_writer_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = image_writer_node.cpp; path = ../../src/image_writer_node.cpp; sourceTree = "<group>"; };
+		9D157D6A2083790600613AF6 /* image_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = image_io.cpp; path = ../../src/image_io.cpp; sourceTree = "<group>"; };
+		9D157D6C2083790600613AF6 /* rbp_wrappers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rbp_wrappers.cpp; path = ../../src/rbp_wrappers.cpp; sourceTree = "<group>"; };
+		9D157D6E2083790600613AF6 /* json_atlas_dict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_atlas_dict.cpp; path = ../../src/json_atlas_dict.cpp; sourceTree = "<group>"; };
+		9D157D6F2083790600613AF6 /* bin_packer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = bin_packer.hpp; path = ../../src/bin_packer.hpp; sourceTree = "<group>"; };
+		9D157D702083790600613AF6 /* json_writer_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer_node.cpp; path = ../../src/json_writer_node.cpp; sourceTree = "<group>"; };
+		9D157D712083790600613AF6 /* image_writer_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = image_writer_node.hpp; path = ../../src/image_writer_node.hpp; sourceTree = "<group>"; };
+		9D157D722083790600613AF6 /* chain_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = chain_node.hpp; path = ../../src/chain_node.hpp; sourceTree = "<group>"; };
+		9D157D742083790700613AF6 /* atlas_mapper_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atlas_mapper_node.cpp; path = ../../src/atlas_mapper_node.cpp; sourceTree = "<group>"; };
+		9D157D752083790700613AF6 /* json_atlas_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = json_atlas_parser.hpp; path = ../../src/json_atlas_parser.hpp; sourceTree = "<group>"; };
+		9D157D762083790700613AF6 /* atlas_mapper_node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = atlas_mapper_node.hpp; path = ../../src/atlas_mapper_node.hpp; sourceTree = "<group>"; };
+		9D157D772083790700613AF6 /* atlas_naming_node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atlas_naming_node.cpp; path = ../../src/atlas_naming_node.cpp; sourceTree = "<group>"; };
+		9D2C79CE1F5DDCBC00EC1324 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_filesystem.a; sourceTree = "<absolute>"; };
+		9D2C79D01F5DDCBF00EC1324 /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_program_options.a; sourceTree = "<absolute>"; };
+		9D2C79D21F5DDCC000EC1324 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_system.a; sourceTree = "<absolute>"; };
+		9DBCEC0B1F4CC149008D1BE0 /* json_atlas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = json_atlas; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBCEC4E1F4CD101008D1BE0 /* librbp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librbp.a; path = "../../../../../Library/Developer/Xcode/DerivedData/atlas2d-bodesmxvjmibsfeszxlpbbqhewll/Build/Products/Debug/librbp.a"; sourceTree = "<group>"; };
+		9DD215661F61DDDC005F194E /* libpng17.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng17.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../lib/libpng/.libs/libpng17.a; sourceTree = "<absolute>"; };
+		9DDF5E6C1F7BBA890008CC5A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9DDF5EAA1F7E80230008CC5A /* libatlas2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libatlas2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDF5EAF1F7EB1D60008CC5A /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = /Users/saydex/Documents/repos/atlas_mapper/proj.xc/../lib/libpng/.libs/libpng16.a; sourceTree = "<absolute>"; };
+		9DE29F391FFD7A1400494600 /* libpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE29F3B1FFD7A1C00494600 /* zlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = zlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE29F3E1FFD7A2B00494600 /* librbp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librbp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE29F421FFD7C8A00494600 /* json_atlas.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = json_atlas.xcconfig; path = ../json_atlas.xcconfig; sourceTree = "<group>"; };
+		9DEC67351F8BDA1500230527 /* libelpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libelpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DBCEC081F4CC149008D1BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE29F371FFD7A0900494600 /* libatlas2d.a in Frameworks */,
+				9DE29F3A1FFD7A1C00494600 /* zlib.a in Frameworks */,
+				9DE29F3D1FFD7A2B00494600 /* librbp.a in Frameworks */,
+				9DE29F381FFD7A1400494600 /* libpng.a in Frameworks */,
+				9DE29F3C1FFD7A2300494600 /* libelpp.a in Frameworks */,
+				9DE29F3F1FFD7A3E00494600 /* libboost_filesystem.a in Frameworks */,
+				9DE29F401FFD7A3E00494600 /* libboost_program_options.a in Frameworks */,
+				9DE29F411FFD7A3E00494600 /* libboost_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DBCEC021F4CC149008D1BE0 = {
+			isa = PBXGroup;
+			children = (
+				9DE29F421FFD7C8A00494600 /* json_atlas.xcconfig */,
+				9DDF5E6E1F7BF3460008CC5A /* src */,
+				9DBCEC0C1F4CC149008D1BE0 /* Products */,
+				9DBCEC4D1F4CD101008D1BE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DBCEC0C1F4CC149008D1BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCEC0B1F4CC149008D1BE0 /* json_atlas */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DBCEC4D1F4CD101008D1BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC67351F8BDA1500230527 /* libelpp.a */,
+				9DE29F391FFD7A1400494600 /* libpng.a */,
+				9DE29F3B1FFD7A1C00494600 /* zlib.a */,
+				9DE29F3E1FFD7A2B00494600 /* librbp.a */,
+				9DDF5EAA1F7E80230008CC5A /* libatlas2d.a */,
+				9DDF5E6C1F7BBA890008CC5A /* libz.tbd */,
+				9DDF5EAF1F7EB1D60008CC5A /* libpng16.a */,
+				9DBCEC4E1F4CD101008D1BE0 /* librbp.a */,
+				9D2C79CE1F5DDCBC00EC1324 /* libboost_filesystem.a */,
+				9DD215661F61DDDC005F194E /* libpng17.a */,
+				9D2C79D21F5DDCC000EC1324 /* libboost_system.a */,
+				9D2C79D01F5DDCBF00EC1324 /* libboost_program_options.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DDF5E6E1F7BF3460008CC5A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D157D672083790600613AF6 /* helpers.hpp */,
+				9D157D602083790600613AF6 /* forwards.hpp */,
+				9D157D5E2083790500613AF6 /* atlas_builder.hpp */,
+				9D157D722083790600613AF6 /* chain_node.hpp */,
+				9D157D662083790600613AF6 /* chain_node.cpp */,
+				9D157D6F2083790600613AF6 /* bin_packer.hpp */,
+				9D157D622083790600613AF6 /* rbp_wrappers.hpp */,
+				9D157D6C2083790600613AF6 /* rbp_wrappers.cpp */,
+				9D157D682083790600613AF6 /* image_io.hpp */,
+				9D157D6A2083790600613AF6 /* image_io.cpp */,
+				9D157D612083790600613AF6 /* atlas_naming_node.hpp */,
+				9D157D772083790700613AF6 /* atlas_naming_node.cpp */,
+				9D157D712083790600613AF6 /* image_writer_node.hpp */,
+				9D157D692083790600613AF6 /* image_writer_node.cpp */,
+				9D157D642083790600613AF6 /* json_atlas_dict.hpp */,
+				9D157D6E2083790600613AF6 /* json_atlas_dict.cpp */,
+				9D157D5D2083790500613AF6 /* json_writer_node.hpp */,
+				9D157D702083790600613AF6 /* json_writer_node.cpp */,
+				9D157D762083790700613AF6 /* atlas_mapper_node.hpp */,
+				9D157D742083790700613AF6 /* atlas_mapper_node.cpp */,
+				9D157D752083790700613AF6 /* json_atlas_parser.hpp */,
+				9D157D632083790600613AF6 /* json_atlas_parser.cpp */,
+				9D157D652083790600613AF6 /* main.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DBCEC0A1F4CC149008D1BE0 /* json_atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "json_atlas" */;
+			buildPhases = (
+				9DBCEC071F4CC149008D1BE0 /* Sources */,
+				9DBCEC081F4CC149008D1BE0 /* Frameworks */,
+				9DBCEC091F4CC149008D1BE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = json_atlas;
+			productName = atlas2d_mapper;
+			productReference = 9DBCEC0B1F4CC149008D1BE0 /* json_atlas */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DBCEC031F4CC149008D1BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					9DBCEC0A1F4CC149008D1BE0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "json_atlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DBCEC021F4CC149008D1BE0;
+			productRefGroup = 9DBCEC0C1F4CC149008D1BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DBCEC0A1F4CC149008D1BE0 /* json_atlas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DBCEC071F4CC149008D1BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D157D792083790700613AF6 /* json_atlas_parser.cpp in Sources */,
+				9D157D7E2083790700613AF6 /* rbp_wrappers.cpp in Sources */,
+				9D157D7C2083790700613AF6 /* image_writer_node.cpp in Sources */,
+				9D157D7D2083790700613AF6 /* image_io.cpp in Sources */,
+				9D157D832083790700613AF6 /* atlas_naming_node.cpp in Sources */,
+				9D157D7A2083790700613AF6 /* main.cpp in Sources */,
+				9D157D7B2083790700613AF6 /* chain_node.cpp in Sources */,
+				9D157D822083790700613AF6 /* atlas_mapper_node.cpp in Sources */,
+				9D157D812083790700613AF6 /* json_writer_node.cpp in Sources */,
+				9D157D802083790700613AF6 /* json_atlas_dict.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DBCEC101F4CC149008D1BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE29F421FFD7C8A00494600 /* json_atlas.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WORKSPACE_ROOT = "$(SRCROOT)/..";
+			};
+			name = Debug;
+		};
+		9DBCEC111F4CC149008D1BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE29F421FFD7C8A00494600 /* json_atlas.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				WORKSPACE_ROOT = "$(SRCROOT)/..";
+			};
+			name = Release;
+		};
+		9DBCEC131F4CC149008D1BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DBCEC141F4CC149008D1BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "json_atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBCEC101F4CC149008D1BE0 /* Debug */,
+				9DBCEC111F4CC149008D1BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "json_atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DBCEC131F4CC149008D1BE0 /* Debug */,
+				9DBCEC141F4CC149008D1BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DBCEC031F4CC149008D1BE0 /* Project object */;
+}
