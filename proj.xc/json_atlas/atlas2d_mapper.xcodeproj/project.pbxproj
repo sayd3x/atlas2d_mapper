@@ -66,7 +66,7 @@
 		9D2C79CE1F5DDCBC00EC1324 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_filesystem.a; sourceTree = "<absolute>"; };
 		9D2C79D01F5DDCBF00EC1324 /* libboost_program_options.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_program_options.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_program_options.a; sourceTree = "<absolute>"; };
 		9D2C79D21F5DDCC000EC1324 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../../../libs/boost_1_60_0/stage/lib/libboost_system.a; sourceTree = "<absolute>"; };
-		9DBCEC0B1F4CC149008D1BE0 /* json_atlas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = json_atlas; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DBCEC0B1F4CC149008D1BE0 /* atlas2d_mapper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = atlas2d_mapper; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBCEC4E1F4CD101008D1BE0 /* librbp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librbp.a; path = "../../../../../Library/Developer/Xcode/DerivedData/atlas2d-bodesmxvjmibsfeszxlpbbqhewll/Build/Products/Debug/librbp.a"; sourceTree = "<group>"; };
 		9DD215661F61DDDC005F194E /* libpng17.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng17.a; path = /Users/saydex/Documents/own_repos/atlas2d_tools/proj.xc/../lib/libpng/.libs/libpng17.a; sourceTree = "<absolute>"; };
 		9DDF5E6C1F7BBA890008CC5A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -111,7 +111,7 @@
 		9DBCEC0C1F4CC149008D1BE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DBCEC0B1F4CC149008D1BE0 /* json_atlas */,
+				9DBCEC0B1F4CC149008D1BE0 /* atlas2d_mapper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DBCEC0A1F4CC149008D1BE0 /* json_atlas */ = {
+		9DBCEC0A1F4CC149008D1BE0 /* atlas2d_mapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "json_atlas" */;
+			buildConfigurationList = 9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "atlas2d_mapper" */;
 			buildPhases = (
 				9DBCEC071F4CC149008D1BE0 /* Sources */,
 				9DBCEC081F4CC149008D1BE0 /* Frameworks */,
@@ -180,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = json_atlas;
+			name = atlas2d_mapper;
 			productName = atlas2d_mapper;
-			productReference = 9DBCEC0B1F4CC149008D1BE0 /* json_atlas */;
+			productReference = 9DBCEC0B1F4CC149008D1BE0 /* atlas2d_mapper */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "json_atlas" */;
+			buildConfigurationList = 9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "atlas2d_mapper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DBCEC0A1F4CC149008D1BE0 /* json_atlas */,
+				9DBCEC0A1F4CC149008D1BE0 /* atlas2d_mapper */,
 			);
 		};
 /* End PBXProject section */
@@ -348,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "json_atlas" */ = {
+		9DBCEC061F4CC149008D1BE0 /* Build configuration list for PBXProject "atlas2d_mapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DBCEC101F4CC149008D1BE0 /* Debug */,
@@ -357,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "json_atlas" */ = {
+		9DBCEC121F4CC149008D1BE0 /* Build configuration list for PBXNativeTarget "atlas2d_mapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DBCEC131F4CC149008D1BE0 /* Debug */,

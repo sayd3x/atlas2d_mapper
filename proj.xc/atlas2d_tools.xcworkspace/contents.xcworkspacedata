@@ -11,7 +11,7 @@
       location = "group:zlib/zlib.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:json_atlas/json_atlas.xcodeproj">
+      location = "group:/Users/saydex/Documents/own_repos/atlas_mapper.git/proj.xc/json_atlas/atlas2d_mapper.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:elpp/elpp.xcodeproj">

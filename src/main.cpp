@@ -74,7 +74,7 @@ namespace {
         const std::string defaultSpritesMapFilename = "sprites_map.json";
         std::string const outDir(vars["dst"].as<string>());
         
-        auto packingAlgo = atlas_mapper_props::constant_size;
+        auto packingAlgo = atlas_mapper_props::best_size;
         if(!extractPackingAlgo(vars, packingAlgo)) {
             LOG(ERROR) << "Invalid packing algo was selected!";
             return nullptr;
@@ -209,7 +209,7 @@ int main(int argc, const char * argv[]) {
         ("height,h", po::value<int>(), "Atlas height")
         ("padding,p", po::value<int>()->default_value(0), "Padding between sprites")
         ("pixel-format", po::value<string>()->default_value("rgba8"), "Set preffered pixel format")
-        ("bin-type", po::value<string>()->default_value("constant"), "Atlas packing algorithm [constant, bestfit, sqpow2]")
+        ("bin-type", po::value<string>()->default_value("bestfit"), "Atlas packing algorithm [constant, bestfit, sqpow2]")
         ("debug-mapping", po::bool_switch()->default_value(false), "Draw the image of each atlas during builing of jsons")
         ("build-atlas", po::value<string>(), "Json atlas to build")
         ("premultiple-alpha", po::bool_switch()->default_value(false), "Premultiple alpha channel")
