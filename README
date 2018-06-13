@@ -14,6 +14,55 @@ The main feature of the tool is the ability just to map coordinates of sprites. 
 
 The tool is well suitable for integration with your resource building toolchain as it building process is splitted to two stages: mapping atlases and building(drawing) atlases. Such splitting allows you to distribute atlas building process in order to utilize all available computing power. 
 
+Build instructions:
 
-TODO: add examples of using the command line tool
+To build the tool you need the Xcode environment and the latest Boost library with compiled filesystem and program_options libraries. Create symlink of the boost to the lib/boost directory and you are ready to build. Open proj.xc/atlas2d_tools.xcworkspace workspace and build the project.  
+
+
+Here some examples of using the tool:
+
+There is tool's help to consider:
+atlas2d_mapper --help
+
+Json atlas options:
+  --help                          Help message
+  -v [ --verbose ]                Verbose mode
+  -w [ --width ] arg              Atlas width
+  -h [ --height ] arg             Atlas height
+  -p [ --padding ] arg (=0)       Padding between sprites
+  --pixel-format arg (=rgba8)     Set preffered pixel format
+  --bin-type arg (=bestfit)       Atlas packing algorithm [constant, bestfit, 
+                                  sqpow2]
+  --debug-mapping                 Draw the image of each atlas during builing 
+                                  of jsons
+  --build-atlas arg               Json atlas to build
+  --premultiple-alpha             Premultiple alpha channel
+  --dir-naming                    Name json files after their parent 
+                                  directories
+  --src arg                       Source directory
+  --dst arg                       Output directory
+  -f [ --filter ] arg (=.*\.png$) Image file filter
+
+
+To map bunch of PNG images which were located in the ~/atlas_sprites directory into bunch of JSON atlases of size 2048x2048 do the following:
+atlas2d_mapper -w 2048 -h 2048 ~/atlas_sprites .
+
+The last argument is the output directory to place mapped atlases:
+atlas.json
+atlas1.json
+atlas2.json
+atlas3.json
+atlas4.json
+sprites_map.json
+
+You can also use --debug-mapping to draw images of the mapped atlases to visually review the mapping
+
+To build an atlas image use the following:
+atlas2d_mapper --build-atlas ./atlas.json ~/atlas_sprites .
+
+This will build the PNG image of the premapped atlas atlas.json into the current directory:
+atlas.png
+
+
+TODO: add more examples of using the command line tool
 TODO: add exmaples of using the libatlas2d library by integrating with the cocos2dx engine
